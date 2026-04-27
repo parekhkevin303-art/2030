@@ -15,8 +15,7 @@ public class Frame {
 			System.out.print("hello");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			driver.get("https://paytm.com/");
+			
 			
 			
 			System.out.print("kevin");
